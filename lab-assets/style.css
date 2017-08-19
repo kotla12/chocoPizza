@@ -1,3 +1,13 @@
+.center {
+  width: 901px;
+  margin: 0px 166px;
+}
+.line {
+  width: 901px ;
+}
+.author {
+  display: inline;
+}
 #Del {
   font-family: 'Yellowtail', cursive;
 }
@@ -8,9 +18,20 @@ header h2 {
   display: inline;
 
 }
+h1 {
+  font-family: 'Anton', sans-serif;
+  line-height: 24px;
+
+
+}
 #title {
   font-family: 'Saira Semi Condensed', sans-serif;
   font-size: x-small;
+}
+#h2span {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: small;
+
 }
 #fork {
   float: left;
@@ -18,4 +39,31 @@ header h2 {
 }
 #tab {
   float: right;
+}
+#s {
+  float: right;
+}
+ul {
+  display: inline-block;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.3em;
+}
+#pap {
+  position: relative;
+}
+#li1 {
+  position: relative;
+  bottom: 311px;
+  left: 51px;
+}
+#li2{
+  position: relative;
+  bottom: 284px;
+  left: 236px;
+}
+#van {
+  float: left;
+}
+#butt {
+  float: right; 
 }
