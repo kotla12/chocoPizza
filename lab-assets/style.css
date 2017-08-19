@@ -1,3 +1,36 @@
+header h2 {
+  font-size: 2.3em;
+  font-weight: 300;
+  height: 40px;
+  display: inline;
+}
+h1 {
+  font-family: 'Anton', sans-serif;
+  line-height: 24px;
+}
+p {
+    text-indent: 30px;
+    font-size: large;
+    font-family: 'Playfair Display', serif;
+  }
+#authorP {
+    width: auto;
+    font-size: large;
+    text-indent: none;
+    font-family: 'Playfair Display', serif;
+
+  }
+ul {
+  display: inline-block;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.3em;
+}
+li {
+  list-style-image: url(https://www.aubi-plus.de/assets/img/suchmaschine/checkbox_unchecked.png);
+}
+footer {
+  text-align: center;
+}
 .center {
   width: 901px;
   margin: 0px 166px;
@@ -8,21 +41,12 @@
 .author {
   display: inline;
 }
+.checked {
+  text-decoration: line-through;
+  list-style-image: url(https://www.aubi-plus.de/assets/img/suchmaschine/checkbox_checked.png);
+}
 #Del {
   font-family: 'Yellowtail', cursive;
-}
-header h2 {
-  font-size: 2.3em;
-  font-weight: 300;
-  height: 40px;
-  display: inline;
-
-}
-h1 {
-  font-family: 'Anton', sans-serif;
-  line-height: 24px;
-
-
 }
 #title {
   font-family: 'Saira Semi Condensed', sans-serif;
@@ -43,11 +67,6 @@ h1 {
 #s {
   float: right;
 }
-ul {
-  display: inline-block;
-  font-family: 'Patrick Hand', cursive;
-  font-size: 1.3em;
-}
 #pap {
   position: relative;
 }
@@ -65,5 +84,8 @@ ul {
   float: left;
 }
 #butt {
-  float: right; 
+  float: right;
+  background: #ef401f;
+  color: white;
+  padding: 19px;
 }
